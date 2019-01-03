@@ -1,0 +1,26 @@
+{
+  "scripts": {
+    "stylelint:c": "stylelint-config-prettier-check",
+    "eslint:c": "eslint --print-config . | eslint-config-prettier-check",
+    "prettier:w": "prettier --write **/*.{html,css,js,json}",
+    "rollup:c": "rollup -c",
+    "rollup:c:w": "rollup -c -w"
+  },
+  "devDependencies": {
+    "cssnano": "^4.1.8",
+    "eslint": "^5.11.1",
+    "eslint-config-prettier": "^3.3.0",
+    "htmllint": "^0.7.3",
+    "postcss": "^7.0.7",
+    "postcss-html": "^0.36.0",
+    "postcss-load-config": "^2.0.0",
+    "postcss-preset-env": "^6.5.0",
+    "postcss-syntax": "^0.36.0",
+    "prettier": "^1.15.3",
+    "rollup": "^1.0.0",
+    "rollup-plugin-node-resolve": "^4.0.0",
+    "rollup-pluginutils": "^2.3.3",
+    "stylelint": "^9.9.0",
+    "stylelint-config-prettier": "^4.0.0"
+  }
+}
